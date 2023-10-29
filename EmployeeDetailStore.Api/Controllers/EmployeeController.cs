@@ -16,7 +16,7 @@ namespace EmployeeDetailStore.Api.Controllers
         private readonly IEmployeeService _employeeService;
         private readonly ILogger<EmployeeController> _logger;
 
-        public EmployeeController(IEmployeeService employeeService, ILogger<EmployeeController> logger)
+        public EmployeeController(ILogger<EmployeeController> logger, IEmployeeService employeeService)
         {
             _employeeService = employeeService;
             _logger = logger;

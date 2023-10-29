@@ -107,8 +107,8 @@ namespace EmployeeDetailStore.Repository
                 {
                     throw new ArgumentNullException(nameof(employee));
                 }
-                var result = await _employeeRepository.GetByIdAsync(employee.EmployeeId);
-                if (result == null)
+                var result = await _employeeRepository.FindAsync(x => x.EmployeeId == employee.EmployeeId);
+                if (result == null || result.Count==0)
                 {
                     throw new NotFoundException("Employee not found.");
                 }

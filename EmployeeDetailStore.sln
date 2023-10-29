@@ -9,7 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeDetailStore.Reposit
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeDetailStore.Utilities", "EmployeeDetailStore.Utilities\EmployeeDetailStore.Utilities.csproj", "{DC60F633-E6C4-4DD5-B479-CD2512D06DF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeDetailStore.Api", "EmployeeDetailStore.Api\EmployeeDetailStore.Api.csproj", "{381FB689-AE48-4A55-B099-32548884E4B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeDetailStore.Api", "EmployeeDetailStore.Api\EmployeeDetailStore.Api.csproj", "{381FB689-AE48-4A55-B099-32548884E4B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{D3D8758A-ED70-4F03-92D3-E173F1B041D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeDetailStore.Api.Test", "EmployeeDetailStore.Api.Test\EmployeeDetailStore.Api.Test.csproj", "{363A99C0-DB7A-48BF-A55F-17F67B47B20B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeDetailStore.Repository.Test", "EmployeeDetailStore.Repository.Test\EmployeeDetailStore.Repository.Test.csproj", "{531F0A34-3A88-447E-9953-D1BB4F5377E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +39,21 @@ Global
 		{381FB689-AE48-4A55-B099-32548884E4B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{381FB689-AE48-4A55-B099-32548884E4B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{381FB689-AE48-4A55-B099-32548884E4B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{363A99C0-DB7A-48BF-A55F-17F67B47B20B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{363A99C0-DB7A-48BF-A55F-17F67B47B20B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{363A99C0-DB7A-48BF-A55F-17F67B47B20B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{363A99C0-DB7A-48BF-A55F-17F67B47B20B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{531F0A34-3A88-447E-9953-D1BB4F5377E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{531F0A34-3A88-447E-9953-D1BB4F5377E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{531F0A34-3A88-447E-9953-D1BB4F5377E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{531F0A34-3A88-447E-9953-D1BB4F5377E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{363A99C0-DB7A-48BF-A55F-17F67B47B20B} = {D3D8758A-ED70-4F03-92D3-E173F1B041D4}
+		{531F0A34-3A88-447E-9953-D1BB4F5377E0} = {D3D8758A-ED70-4F03-92D3-E173F1B041D4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1F0688FE-5F75-4707-83A0-10A8C174C91A}
