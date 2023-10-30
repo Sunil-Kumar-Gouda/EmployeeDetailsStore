@@ -71,7 +71,7 @@ namespace EmployeeDetailStore.Api.Controllers
             }
         }
 
-        // GET: api/Employee/5
+        // GET: api/Employee/sunil
         [HttpGet("{searchValue}", Name = "Search")]
         public async Task<IActionResult> Get([FromRoute]string searchValue)
         {
@@ -112,7 +112,7 @@ namespace EmployeeDetailStore.Api.Controllers
             }
         }
 
-        // PUT: api/Employee/5
+        // PUT: api/Employee/
         [HttpPut]
         public async Task<IActionResult> Put([FromBody] Employee employee)
         {
